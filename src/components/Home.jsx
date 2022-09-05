@@ -10,7 +10,7 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row">
-        <div className="flex flex-col h-full justify-center">
+        <div className="flex flex-col h-full pt-5 justify-center">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I am a Front-End developer.
           </h2>
@@ -36,7 +36,7 @@ const Home = () => {
           <img
             src={heroImage}
             alt="profile-Pic"
-            className="rounded-2xl mx-auto w-96 md:w-96 hover:scale-105 duration-300"
+            className="rounded-2xl mx-auto w-80 md:w-96 "
           />
         </div>
       </div>
