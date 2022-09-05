@@ -5,6 +5,7 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import roboFriends from "../assets/portfolio/roboFriend.jpeg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -32,6 +33,12 @@ const Portfolio = () => {
       id: 6,
       src: reactWeather,
     },
+    {
+      id: 7,
+      src: roboFriends,
+      site: "https://oonie11.github.io/robo-friends/",
+      code: "https://github.com/Oonie11/robo-friends",
+    },
   ];
 
   return (
@@ -50,19 +57,32 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-col-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => {
+          {portfolios.map(({ id, src, site, code }) => {
             return (
-              <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+              <div
+                key={id}
+                className="shadow-md shadow-gray-600 rounded-lg mx-auto"
+              >
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 hover:scale-105"
+                  className="rounded-md duration-200 w-96 h-56 hover:scale-105"
                 />
                 <div className="flex items-center justify-center">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button
+                    onClick={() => {
+                      window.open(site);
+                    }}
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  >
                     Demo
                   </button>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button
+                    onClick={() => {
+                      window.open(code);
+                    }}
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  >
                     code
                   </button>
                 </div>
