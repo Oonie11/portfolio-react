@@ -15,9 +15,8 @@ const Home = () => {
             I am a Front-End developer.
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            Learning Front-End Development using technologies like HTML, CSS,
+            JavaScript, React.
           </p>
           <div>
             <Link
@@ -37,7 +36,7 @@ const Home = () => {
           <img
             src={heroImage}
             alt="profile-Pic"
-            className="rounded-2xl mx-auto w-96"
+            className="rounded-2xl mx-auto w-96 md:w-96 hover:scale-105 duration-300"
           />
         </div>
       </div>

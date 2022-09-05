@@ -13,12 +13,10 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae
-          id rem laborum quidem ut odit ducimus, fugit quas labore dolore,
-          facere perferendis qui beatae unde obcaecati ab. Fugit reiciendis ab,
-          fugiat aperiam ex repellat, sequi vitae sit quasi delectus dolor
-          aspernatur? Numquam praesentium pariatur sint earum eius voluptatibus
-          non.
+          In the beginning phase of Design Journey, not to reach the final
+          destination but to enjoy the Process. I wish to combine my interest in
+          3D Modelling, Sketching, and Programming by pushing my abilites beyond
+          limits, by exploring new ideas and experiencing New Project.
         </p>
         <br />
         <p className="text-xl">
