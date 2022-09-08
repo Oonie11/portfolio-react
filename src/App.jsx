@@ -4,6 +4,7 @@ import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
+import Particle from "./components/Particle";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 
@@ -18,6 +19,7 @@ function App() {
       <Contact />
       <Footer />
       <SocialLinks />
+      <Particle />
     </div>
   );
 }
