@@ -1,43 +1,41 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import roboFriends from "../assets/portfolio/roboFriend.jpeg";
+import omniFood from "../assets/portfolio/omniFood.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-    },
-    {
-      id: 2,
-      src: reactParallax,
-    },
-    {
-      id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
-    },
-    {
-      id: 7,
       src: roboFriends,
       site: "https://oonie11.github.io/robo-friends/",
       code: "https://github.com/Oonie11/robo-friends",
+    },
+    {
+      id: 2,
+      src: omniFood,
+      site: "https://omnifood-oonie11.netlify.app/",
+      code: "https://github.com/Oonie11/omniFood_Website",
+    },
+    {
+      id: 3,
+      src: reactParallax,
+    },
+    {
+      id: 4,
+      src: navbar,
+    },
+    {
+      id: 5,
+      src: reactSmooth,
+    },
+
+    {
+      id: 6,
+      src: reactWeather,
     },
   ];
 
@@ -56,7 +54,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-col-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, site, code }) => {
             return (
               <div
@@ -66,7 +64,7 @@ const Portfolio = () => {
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 w-96 h-56 hover:scale-105"
+                  className=" mx-auto rounded-md duration-200 w-96 h-56 hover:scale-105"
                 />
                 <div className="flex items-center justify-center">
                   <button
