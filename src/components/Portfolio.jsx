@@ -5,6 +5,7 @@ import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import roboFriends from "../assets/portfolio/roboFriend.jpeg";
 import omniFood from "../assets/portfolio/omniFood.png";
+import numberGuess from "../assets/portfolio/numberGuessImg.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -22,7 +23,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: reactParallax,
+      src: numberGuess,
+      site: "https://rock-paper-scissor-oonie11.netlify.app/",
+      code: "https://github.com/Oonie11/guess-my-number",
     },
     {
       id: 4,
