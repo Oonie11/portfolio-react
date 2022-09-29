@@ -1,10 +1,10 @@
 import React from "react";
-import navbar from "../assets/portfolio/navbar.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import roboFriends from "../assets/portfolio/roboFriend.jpeg";
 import omniFood from "../assets/portfolio/omniFood.png";
 import numberGuess from "../assets/portfolio/numberGuessImg.png";
+import pigGame from "../assets/portfolio/pig-game.jpeg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -28,7 +28,9 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: navbar,
+      src: pigGame,
+      site: "https://pig-game-oonie11.netlify.app/",
+      code: "https://github.com/Oonie11/pig-game",
     },
     {
       id: 5,
