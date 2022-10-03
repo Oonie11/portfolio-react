@@ -12,20 +12,18 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
-          In the beginning phase of Design Journey, not to reach the final
-          destination but to enjoy the Process. I wish to combine my interest in
-          3D Modelling, Sketching, and Programming by pushing my abilites beyond
-          limits, by exploring new ideas and experiencing New Project.
+        <p className="text-xl mt-8">
+          On the odyssey of Design, Not to reach the final destination but to
+          enjoy the process. Building optimized projects by integrating my
+          programming, 3D modelling and design skills to create impressive
+          results. Generate new ideas and implement new techniques by pushing my
+          abilities beyond limits.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, in
-          assumenda? In, cumque? Vel tenetur fuga repellendus est, aut eaque ad
-          autem cupiditate quibusdam totam adipisci ab animi rem amet nulla,
-          nobis nisi laboriosam veniam! At veritatis obcaecati iure. Incidunt
-          aperiam minus enim placeat, voluptatum cupiditate consequatur esse
-          praesentium ducimus.
+          Passionate about learning and development, Desire to apply skills with
+          a development team. Eager to tackle complex problems and continue to
+          find ways to maximize user efficiency.
         </p>
       </div>
     </div>
