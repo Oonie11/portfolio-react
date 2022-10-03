@@ -1,5 +1,5 @@
 import React from "react";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import rockPaperScissor from "../assets/portfolio/rock-paper-scissor-img.png";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import roboFriends from "../assets/portfolio/roboFriend.jpeg";
 import omniFood from "../assets/portfolio/omniFood.png";
@@ -34,7 +34,9 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: reactSmooth,
+      src: rockPaperScissor,
+      site: "https://rock-paper-scissor-oonie11.netlify.app/",
+      code: "https://github.com/Oonie11/rock-paper-scissor",
     },
 
     {
