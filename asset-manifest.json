@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.f133d25d.css",
-    "main.js": "/portfolio-react/static/js/main.45ff4c47.js",
+    "main.js": "/portfolio-react/static/js/main.e082b44d.js",
     "static/media/reactWeather.jpg": "/portfolio-react/static/media/reactWeather.a1988356c4f5a620716e.jpg",
     "static/media/numberGuessImg.png": "/portfolio-react/static/media/numberGuessImg.aa63556a6a6ff98d1ea1.png",
     "static/media/graphql.png": "/portfolio-react/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/heroImage.JPG": "/portfolio-react/static/media/heroImage.2b9e5d444045a3442d36.JPG",
-    "static/media/reactSmooth.jpg": "/portfolio-react/static/media/reactSmooth.a2ffb0a8d6db6a651603.jpg",
     "static/media/react.png": "/portfolio-react/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/roboFriend.jpeg": "/portfolio-react/static/media/roboFriend.19c3139bad84dd57af58.jpeg",
     "static/media/omniFood.png": "/portfolio-react/static/media/omniFood.62ed89205001febbeecb.png",
@@ -18,10 +17,10 @@
     "static/media/javascript.png": "/portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-react/index.html",
     "main.f133d25d.css.map": "/portfolio-react/static/css/main.f133d25d.css.map",
-    "main.45ff4c47.js.map": "/portfolio-react/static/js/main.45ff4c47.js.map"
+    "main.e082b44d.js.map": "/portfolio-react/static/js/main.e082b44d.js.map"
   },
   "entrypoints": [
     "static/css/main.f133d25d.css",
-    "static/js/main.45ff4c47.js"
+    "static/js/main.e082b44d.js"
   ]
 }
