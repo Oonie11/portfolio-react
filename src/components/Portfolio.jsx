@@ -23,7 +23,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: numberGuess,
-      site: "https://rock-paper-scissor-oonie11.netlify.app/",
+      site: "https://guess-my-number-oonie11.netlify.app/",
       code: "https://github.com/Oonie11/guess-my-number",
     },
     {
